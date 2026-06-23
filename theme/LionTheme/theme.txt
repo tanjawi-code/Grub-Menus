@@ -1,0 +1,61 @@
+# Copyright (C) 2020 L. Henrique Lopes - HENK
+
+# general settings
+ title-text: ""
+ title-color: "#3ec6ae"
+ message-font: "DejaVu Sans Regular 14"
+ message-color: "#fd262e"
+ message-bg-color: "#808080"
+ desktop-image: "Lion.png"
+ desktop-color: "#808080"
+ terminal-font: "DejaVu Sans Regular 14"
+
+
+# boot menu
++ boot_menu {
+    left = 50%
+    width = 50%
+    top = 20%
+    height = 50%
+    item_font = "Roboto Slab Regular 24"
+    item_color = "#128FC9"
+    selected_item_font = "Roboto Slab Bold 28"
+    selected_item_color = "#064180"
+    icon_width = 48
+    icon_height = 48
+    item_height = 64
+    item_padding = 20
+    item_icon_space = 15
+    item_spacing = 10
+    menu_pixmap_style = "boot_menu2_*.png"
+    selected_item_pixmap_style = "highlight_*.png"
+}
+
+# Show progress
++ progress_bar {
+  id = "__timeout__"
+  left = 0%
+  width = 100%
+  top = 99%
+  height = 31
+  show_text = false
+  text = ""
+  fg_color = "#FFFFFF"
+  bg_color = "#31363b"
+  border_color = "#87A6ED"
+  highlight_style = "progress_highlight_*.png"
+}
+
+# Show hints
++ label {
+    top = 95%
+    left = 5%
+    width = 90%
+    height = 30
+
+    text = "E=Edit    C=Console    Enter=Boot    Esc=Back    F5=Settings"
+
+    color = "#FA0000"
+    font = "Roboto Slab Bold 28"
+    align = "center"
+}

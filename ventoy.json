@@ -1,0 +1,111 @@
+{
+    "theme": {
+        "file": "/ventoy/theme/LionTheme/theme.txt",
+        "gfxmode": "1920x1080",
+        "display_mode": "GUI",
+        "serial_param": "--unit=0 --speed=9600",
+        "ventoy_left": "5%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#000000",
+        "fonts": [
+            "/ventoy/theme/LionTheme/dejavu_14.pf2",
+            "/ventoy/theme/LionTheme/droidlogo_bold_17.pf2",
+            "/ventoy/theme/LionTheme/droidlogo_bold_20.pf2",
+            "/ventoy/theme/LionTheme/droidlogo_bold_26.pf2",
+            "/ventoy/theme/LionTheme/droidlogo_regular_12.pf2",
+            "/ventoy/theme/LionTheme/droidlogo_regular_17.pf2",
+            "/ventoy/theme/LionTheme/RobotoSlab-Regular-24.pf2",
+            "/ventoy/theme/LionTheme/RobotoSlab-Bold-28.pf2"
+        ]
+    },
+    "control": [
+    	{ "VTOY_DEFAULT_MENU_MODE": "1" },
+    	{ "VTOY_MENU_TIMEOUT": "30"}
+    ],
+    "menu_tip": {
+    	"left": "50%",
+      	"top": "75%",
+      	"color": "#1BAD09",
+      	"tips": [
+      	      {
+      	        "image": "/ISOs/Intermediate/Fedora-Workstation-Live-44-1.7.x86_64.iso",
+      	        "tip": "Fedora Workstation: Modern Linux distro, used especially by developers, and people who want cutting edge tools."
+      	      },
+      	      {
+      	        "image": "/ISOs/Beginners/linuxmint-22.3-cinnamon-64bit.iso",
+      	        "tip": "Linux Mint: Beginner-friendly desktop focused on simplicity, stability, and a familiar Windows-like experience."
+      	      },
+      	      {
+      	        "image": "/ISOs/Advanced/manjaro-kde-26.0.4-260327-linux618.iso",
+      	        "tip": "Manjaro: Arch-based distribution offering recent software, powerful customization, and easier maintenance than Arch."
+      	      },
+      	      {
+      	        "image": "/ISOs/Intermediate/neon-user-desktop-20260618-0758.iso",
+      	        "tip": "KDE Neon: Based on Ubuntu, offers the latest KDE and customization out of the box, and easy to use."
+      	      },
+      	      {
+      	        "image": "/ISOs/Beginners/ubuntu-26.04-desktop-amd64.iso",
+      	        "tip": "Ubuntu: Popular Linux distribution known for ease of use, extensive documentation, and broad hardware support."
+      	      },
+      	      {
+      	        "image": "/ISOs/Intermediate/pop-os_24.04_amd64_generic_25.iso",
+      	        "tip": "Pop! OS: Ubuntu-based desktop optimized for productivity, gaming, and NVIDIA graphics support."
+      	      },
+      	      {
+      	        "image": "/ISOs/Beginners/Zorin-OS-18.1-Core-64-bit.iso",
+      	        "tip": "Zorin OS: Highly polished Gnome based interface. Offers changing the desktop layout to look like Windows or macOS"
+      	      },
+      	      {
+      	        "image": "/ISOs/Advanced/archlinux-2026.06.01-x86_64.iso",
+      	        "tip": "Arch Linux: Provides a terminal-based live environment and allows complete control over installation and customization."
+      	      }
+      	]
+    },
+    "menu_class": [
+	    { "key": "Fedora", "class": "fedora" },
+	    { "key": "ubuntu", "class": "ubuntu" },
+	    { "key": "mint", "class": "mint" },
+	    { "key": "manjaro", "class": "manjaro" },
+	    { "key": "neon", "class": "neon" },
+	    { "key": "pop", "class": "popos" },
+		{ "key": "Zorin", "class": "zorin" },
+	    { "key": "arch", "class": "arch" }
+    ],
+    "menu_alias": [
+      {
+		"image": "/ISOs/Intermediate/Fedora-Workstation-Live-44-1.7.x86_64.iso",
+        "alias": "Fedora Workstation 44 (Developers)"
+      },
+      {
+        "image": "/ISOs/Beginners/linuxmint-22.3-cinnamon-64bit.iso",
+        "alias": "Linux Mint Cinnamon (Beginners)"
+      },
+      {
+        "image": "/ISOs/Advanced/manjaro-kde-26.0.4-260327-linux618.iso",
+        "alias": "Manjaro KDE (Arch Linux based distribution)"
+      },
+      {
+        "image": "/ISOs/Intermediate/neon-user-desktop-20260618-0758.iso",
+        "alias": "KDE Neon (Customization)"
+      },
+      {
+        "image": "/ISOs/Beginners/ubuntu-26.04-desktop-amd64.iso",
+        "alias": "Ubuntu 26.04 LTS (Ease Of Use)"
+      },
+      {
+        "image": "/ISOs/Intermediate/pop-os_24.04_amd64_generic_25.iso",
+        "alias": "Pop! OS (Gaming)"
+      },
+      {
+        "image": "/ISOs/Beginners/Zorin-OS-18.1-Core-64-bit.iso",
+        "alias": "Zorin OS (Ubuntu-based Linux distribution)"
+      },
+      {
+        "image": "/ISOs/Advanced/archlinux-2026.06.01-x86_64.iso",
+        "alias": "Arch Linux (Advanced Linux distribution)"
+      }
+    ],
+    "password": {
+    	"bootpwd": "txt#112233"
+    }
+}
