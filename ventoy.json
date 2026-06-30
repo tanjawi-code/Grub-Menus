@@ -36,10 +36,6 @@
       	        "tip": "Linux Mint: Beginner-friendly desktop focused on simplicity, stability, and a familiar Windows-like experience."
       	      },
       	      {
-      	        "image": "/ISOs/Advanced/manjaro-kde-26.0.4-260327-linux618.iso",
-      	        "tip": "Manjaro: Arch-based distribution offering recent software, powerful customization, and easier maintenance than Arch."
-      	      },
-      	      {
       	        "image": "/ISOs/Intermediate/neon-user-desktop-20260618-0758.iso",
       	        "tip": "KDE Neon: Based on Ubuntu, offers the latest KDE and customization out of the box, and easy to use."
       	      },
@@ -65,7 +61,6 @@
 	    { "key": "Fedora", "class": "fedora" },
 	    { "key": "ubuntu", "class": "ubuntu" },
 	    { "key": "mint", "class": "mint" },
-	    { "key": "manjaro", "class": "manjaro" },
 	    { "key": "neon", "class": "neon" },
 	    { "key": "pop", "class": "popos" },
 		{ "key": "Zorin", "class": "zorin" },
@@ -79,10 +74,6 @@
       {
         "image": "/ISOs/Beginners/linuxmint-22.3-cinnamon-64bit.iso",
         "alias": "Linux Mint Cinnamon (Beginners)"
-      },
-      {
-        "image": "/ISOs/Advanced/manjaro-kde-26.0.4-260327-linux618.iso",
-        "alias": "Manjaro KDE (Arch Linux based distribution)"
       },
       {
         "image": "/ISOs/Intermediate/neon-user-desktop-20260618-0758.iso",
